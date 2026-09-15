@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables / secrets
+.env
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+
+# Data files
+data/raw/*
+!data/raw/.gitkeep
+
+# Logs
+*.log
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build files
+dist/
+build/
+*.egg-info/
